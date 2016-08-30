@@ -4,24 +4,24 @@ public class Power {
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
-        int num = 0;
+        int n= 0;
+        int p= 0;
         int pow = 0;
-        int power = 0;
 
         System.out.print("Enter number: ");
-        num = sc.nextInt();
+        n= sc.nextInt();
 
         System.out.print("Enter power: ");
-        pow = sc.nextInt();
+        p = sc.nextInt();
 
-        System.out.print(power(num,pow));
+        System.out.print(pow(n,p));
     }
-    public static int power(int a, int b)
+    public static int pow(int w, int q)
     {
-            int power = 1;
-            for(int c=0;c<b;c++)
-            power*=a;
-            return power;
+            int p = 1;
+            for(int a=0;c<q;c++)
+            pow*=w;
+            return pow;
         }
 
 }
